@@ -10,7 +10,7 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<Student> list=new ArrayList<Student>();
-		String arr[]=new String[] {"Kim","Kang","Lee","Park","Choi","Hawng","Gu","Keum","Cha","Ryu"};
+		String arr[]=new String[] {"Kim","Lee","Park","Choi","Hawng","Gu","Keum","Cha","Ryu"};
 		System.out.println("Student List (ordered by name)");
 		
 		Random rand=new Random();
