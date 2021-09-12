@@ -27,6 +27,7 @@ public class main {
 			System.out.println(s.toString());
 		}
 		
+		System.out.println("Student List (descending)");
 		Collections.sort(list,Collections.reverseOrder());
 		for(int i=0;i<list.size();i++) {
 			System.out.println(list.get(i).toString());
