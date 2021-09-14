@@ -17,6 +17,7 @@ public class TodoUtil {
 				+ "enter the title\n");
 		
 		title = sc.next();
+		sc.nextLine();//for delite the enter
 		if (list.isDuplicate(title)) {
 			System.out.printf("title can't be duplicate");
 			return;
